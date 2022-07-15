@@ -12,6 +12,19 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
+
+    background-color: var(--secondary-text-color);
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-color)
 }
 
 ul {
@@ -60,6 +73,10 @@ ul {
 }
 
 /* Стилизация footer  */
+.footer {
+    background-color: var(--secondary-background-color);
+}
+
 .logo.footer {
     color: #FFFFFF;
     background-color: var(--secondary-background-color)
@@ -78,6 +95,10 @@ ul {
 }
 
 /* Стилизация main главной страницы */
+
+/* Стилизация секции hero */
+
+
 .hero {
     background-color: var(--secondary-background-color)
 }
@@ -105,4 +126,46 @@ h1 {
     
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
+}
+
+/* Стилизация секции benefits */
+.benefits h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--title-text-color)
+}
+
+.benefits p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: var(--primary-text-color)
+}
+
+/* Стилизация секции services */
+
+/* Стилизация секции team */
+.team {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team h3 { 
+    color: var(--title-text-color)
+}
+
+.team p {
+    color: var(--primary-text-color);
 }
