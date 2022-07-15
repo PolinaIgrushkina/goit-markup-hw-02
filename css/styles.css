@@ -59,3 +59,19 @@ ul {
 }
 
 /* Стилизация footer  */
+.logo.footer {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.physical-adress {
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.contacts-footer {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;
+}
