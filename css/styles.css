@@ -3,6 +3,7 @@
     --title-text-color: #212121;
     --secondary-text-color: #FFFFFF;
     --accent-color: #2196F3;
+    --secondary-background-color: #2F303A;
 }
 
 /* Правила, применимые ко всему body  */
@@ -61,17 +62,47 @@ ul {
 /* Стилизация footer  */
 .logo.footer {
     color: #FFFFFF;
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color)
 }
 
 .physical-adress {
     font-weight: 400;
     color: #FFFFFF;
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color)
 }
 
 .contacts-footer {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color)
+}
+
+/* Стилизация main главной страницы */
+.hero {
+    background-color: var(--secondary-background-color)
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: var(--secondary-text-color)
+}
+
+.hero button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
 }
