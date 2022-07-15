@@ -37,7 +37,12 @@ ul {
 }
 
 button {
+    font-family: inherit;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Стилизация header  */
@@ -56,6 +61,7 @@ button {
 }
 
 .site-nav a {
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -72,31 +78,51 @@ button {
     color: var(--color-contacts);
 }
 
+a.contacts.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
+    background-color: var(--secondary-text-color);
+}
+
 .site-nav a:hover,
 .site-nav a:focus,
-a.contacts:hover,
-a.contacts:focus {
+a.contacts.header:hover,
+a.contacts.header:focus {
     color: var(--accent-color);
 }
 
 /* Стилизация footer  */
-.footer {
+footer {
     background-color: var(--secondary-background-color);
 }
 
 .logo.footer {
     color: var(--secondary-text-color);
-    background-color: var(--secondary-background-color);
 }
 
 .physical-adress {
+    font-style: none;
+
     color: var(--secondary-text-color);
+}
+
+a.contacts.footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
     background-color: var(--secondary-background-color);
 }
 
-.contacts-footer {
-    color: rgba(255, 255, 255, 0.6);
-    background-color: var(--secondary-background-color);
+a.contacts.footer:hover,
+a.contacts.footer:focus {
+    color: var(--accent-color);
 }
 
 /* Стилизация main главной страницы */
@@ -158,6 +184,12 @@ h1 {
 }
 
 .team h3 { 
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+
     color: var(--title-text-color);
 }
 
