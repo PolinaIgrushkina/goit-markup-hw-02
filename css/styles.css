@@ -97,8 +97,6 @@ ul {
 /* Стилизация main главной страницы */
 
 /* Стилизация секции hero */
-
-
 .hero {
     background-color: var(--secondary-background-color)
 }
