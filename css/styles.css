@@ -5,6 +5,7 @@
     --accent-color: #2196F3;
 }
 
+/* Правила, применимые ко всему body  */
 body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -12,6 +13,11 @@ body {
     line-height: 1.71;
 }
 
+ul {
+    list-style-type: none;
+}
+
+/* Стилизация header  */
 .logo {
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -51,3 +57,5 @@ body {
 .contacts a:focus {
     color: var(--accent-color);
 }
+
+/* Стилизация footer  */
