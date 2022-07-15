@@ -4,15 +4,21 @@
     --secondary-text-color: #FFFFFF;
     --accent-color: #2196F3;
     --secondary-background-color: #2F303A;
+    --color-logo-black: #000000;
+    --color-contacts: #757575;
+    --button-background-color: #F5F4FA;
 }
 
 /* Правила, применимые ко всему body  */
 body {
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 
+    color: var(--primary-text-color);
     background-color: var(--secondary-text-color);
 }
 
@@ -24,11 +30,15 @@ h2 {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
 
 ul {
     list-style-type: none;
+}
+
+button {
+    cursor: pointer;
 }
 
 /* Стилизация header  */
@@ -40,7 +50,7 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    color: #000000
+    color: var(--color-logo-black);
 }
 
 .accent {
@@ -48,7 +58,6 @@ ul {
 }
 
 .site-nav a {
-    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -62,13 +71,13 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #757575;
+    color: var(--color-contacts);
 }
 
 .site-nav a:hover,
 .site-nav a:focus,
-.contacts a:hover,
-.contacts a:focus {
+a.contacts:hover,
+a.contacts:focus {
     color: var(--accent-color);
 }
 
@@ -78,31 +87,28 @@ ul {
 }
 
 .logo.footer {
-    color: #FFFFFF;
-    background-color: var(--secondary-background-color)
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-background-color);
 }
 
 .physical-adress {
-    font-weight: 400;
-    color: #FFFFFF;
-    background-color: var(--secondary-background-color)
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-background-color);
 }
 
 .contacts-footer {
-    font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
-    background-color: var(--secondary-background-color)
+    background-color: var(--secondary-background-color);
 }
 
 /* Стилизация main главной страницы */
 
 /* Стилизация секции hero */
 .hero {
-    background-color: var(--secondary-background-color)
+    background-color: var(--secondary-background-color);
 }
 
 h1 {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36px;
@@ -110,7 +116,7 @@ h1 {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
 
 .hero button {
@@ -128,31 +134,25 @@ h1 {
 
 /* Стилизация секции benefits */
 .benefits h3 {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
 
 .benefits p {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    
-    color: var(--primary-text-color)
 }
 
 /* Стилизация секции services */
 
 /* Стилизация секции team */
 .team {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -161,16 +161,11 @@ h1 {
 }
 
 .team h3 { 
-    color: var(--title-text-color)
-}
-
-.team p {
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
 }
 
 /* Стилизация страницы portfolio*/
 .work-types .button {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -178,7 +173,7 @@ h1 {
     letter-spacing: 0.03em;
     
     color: var(--title-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--button-background-color);
 }
 
 .work-types .button:hover,
@@ -188,21 +183,18 @@ h1 {
 }
 
 .work-examples h2 {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
 
 .work-examples p {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
