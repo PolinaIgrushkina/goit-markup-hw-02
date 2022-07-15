@@ -103,15 +103,16 @@ a.contacts:focus {
 
 /* Стилизация секции hero */
 .hero {
+    text-align: center;
+    letter-spacing: 0.06em;
+
     background-color: var(--secondary-background-color);
 }
 
 h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36px;
-    text-align: center;
-    letter-spacing: 0.06em;
+    line-height: 1.36;
     text-transform: uppercase;
     
     color: var(--secondary-text-color);
@@ -123,8 +124,6 @@ h1 {
     line-height: 1.88;
     display: flex;
     align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
     
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
