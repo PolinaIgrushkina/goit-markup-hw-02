@@ -91,7 +91,8 @@ a.contacts.header {
 .site-nav a:hover,
 .site-nav a:focus,
 a.contacts.header:hover,
-a.contacts.header:focus {
+a.contacts.header:focus,
+a.current {
     color: var(--accent-color);
 }
 
@@ -117,7 +118,6 @@ a.contacts.footer {
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
-    background-color: var(--secondary-background-color);
 }
 
 a.contacts.footer:hover,
