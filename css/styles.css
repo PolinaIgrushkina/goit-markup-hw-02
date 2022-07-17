@@ -107,6 +107,7 @@ footer {
 
 .physical-adress {
     font-style: none;
+    font-style: normal;
 
     color: var(--secondary-text-color);
 }
